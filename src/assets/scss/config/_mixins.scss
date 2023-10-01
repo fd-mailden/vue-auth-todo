@@ -1,0 +1,4 @@
+@mixin img-obj($size: cover, $posY: center, $posX: center) {
+	object-fit: $size;
+	object-position: $posY $posX;
+}

@@ -1,0 +1,126 @@
+body {
+  overflow: visible;
+  overflow-x: hidden;
+}
+
+body {
+  line-height: 160%;
+
+  @media (min-width: map_get($grid-breakpoints, md)) {
+    font-size: $font-size-base;
+  }
+  background-color: #fff;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5 {
+  margin: 0;
+  @media (max-width: map_get($grid-breakpoints, xl)) {
+    line-height: 130%;
+  }
+}
+
+h4,
+.h4 {
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 0;
+  line-height: 160%;
+}
+
+section {
+  position: relative;
+  overflow: hidden;
+}
+
+a,
+svg,
+button {
+  transition: all 0.3s ease;
+}
+
+img {
+  display: inline-flex;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+label,
+button,
+input,
+textarea {
+  transition: all 0.3s ease;
+  outline: none;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+h1,
+.h1 {
+  font-size: 2rem;
+
+  @media (min-width: map_get($grid-breakpoints, xl)) {
+    font-size: $h1-font-size;
+  }
+}
+
+h2,
+.h2 {
+  font-size: 1.5rem;
+
+  @media (min-width: map_get($grid-breakpoints, xl)) {
+    font-size: $h2-font-size;
+  }
+}
+
+h3,
+.h3 {
+  font-size: 18px;
+
+  @media (min-width: map_get($grid-breakpoints, xl)) {
+    font-size: $h3-font-size;
+  }
+}
+
+h4,
+.h4 {
+  font-size: 18px;
+
+  @media (min-width: map_get($grid-breakpoints, md)) {
+    font-size: 20px;
+  }
+
+  @media (min-width: map_get($grid-breakpoints, xl)) {
+    font-size: $h4-font-size;
+  }
+}
+
+a {
+  color: $body-color;
+}

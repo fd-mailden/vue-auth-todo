@@ -1,0 +1,65 @@
+$app-primary: #519945;
+$secondary: #8dc63f;
+$red: #e26262;
+$light-gray: #8c8f96;
+$body-color: #31343d;
+$body-bg: #fafafb;
+$font-family-base: "Poppins", sans-serif;
+
+$font-size-base: 1rem;
+
+$font-weight-base: 400;
+
+$box-shadow: none;
+
+$h1-font-size: 2rem;
+$h2-font-size: 2rem;
+$h3-font-size: 1.5rem;
+$h4-font-size: 1rem;
+$h5-font-size: 1rem;
+$headings-line-height: 150%;
+$headings-margin-bottom: 0;
+$headings-font-family: "Poppins", sans-serif;
+$headings-font-weight: 700;
+$headings-color: #31343d;
+$paragraph-margin-bottom: 0;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1330px,
+  xxl: 1500px,
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1290px,
+  xxl: 1460px,
+);
+
+$label-margin-bottom: 0;
+
+$btn-padding-y: 0;
+$btn-padding-x: 0;
+$btn-font-family: $font-family-base;
+$btn-font-size: 15px;
+$btn-font-weight: normal;
+$btn-border-width: 0;
+$btn-box-shadow: none;
+$btn-focus-box-shadow: none;
+$btn-transition: all 0.3s ease;
+$btn-border-radius: 0;
+
+$link-color: $body-color;
+
+$link-hover-color: $app-primary;
+
+$link-hover-decoration: none;
+
+$vt-color-default: none;
+$vt-toast-min-width: 300px;
+$vt-toast-max-width: 300px;
